@@ -1,5 +1,5 @@
 import React from "react";
-
+import Footer from "@/components/Footer";
 function page() {
   const faqData = [
     {
@@ -17,15 +17,8 @@ function page() {
     {
       question: "Why choose us?",
       answer: "AI-Powered Summaries – No bias, just insights. Time-Saving – Get updated in minutes. Daily & Weekly Digests – Never miss a trend. Free & Open – No paywalls, just information."
-    },
-    {
-      question: "Who are we?",
-      answer: "We are passionate tech enthusiasts dedicated to making news consumption easier and more efficient with AI."
-    },
-    {
-      question: "How can you stay updated?",
-      answer: "Subscribe for updates and follow us on social media to get the latest tech trends effortlessly!"
-    }
+   },
+   
   ];
     return (
         <div className="w-full min-h-screen p-8 mt-24">
@@ -58,6 +51,7 @@ function page() {
                     </div>
                 ))}
             </div>
+            <Footer/>
         </div>
     );
 }

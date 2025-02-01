@@ -1,9 +1,12 @@
 import React from 'react'
 import Hero from '@/components/Hero'
+import Footer from "@/components/Footer";
 function page() {
+  
   return (
-    <div>
+    <div className=' overflow-hidden'>
       <Hero/>
+      <Footer/>
       </div>
   )
 }
