@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "@/components/Footer";
+import '../globals.css';
 function page() {
   const faqData = [
     {
@@ -42,12 +43,12 @@ function page() {
                 {faqData.map((faq, index) => (
                     <div
                       key={index}
-                      className="p-4 border rounded-lg mb-4 bg-gradient-to-b from-[#bdbdbd] to-[#fff]"
+                      className="p-4 border rounded-lg text-black mb-4 bg-gradient-to-b from-[#bdbdbd] to-[#fff]"
                     >
-                      <h3 className="text-2xl font-semibold flex items-center">
+                      <h3 className="text-2xl font-semibold text-black flex items-center">
                          {faq.question}
                       </h3>
-                      <p className="p-8 text-xl">{faq.answer}</p>
+                      <p className="p-8 text-xl  ">{faq.answer}</p>
                     </div>
                 ))}
             </div>

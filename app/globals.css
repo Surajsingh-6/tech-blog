@@ -27,8 +27,12 @@
   :root {
     --foreground: #ffffff;
     --background: #000000;
-    --text-color-1: #ffffff;
-    --text-color-2: #000000;
+    --color-1: #ffffff;
+    --color-2: #000000;
+  }
+  .hero-img {
+  
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),url('/images/hero.png');
   }
   .text-color-1{
     color:white

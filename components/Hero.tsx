@@ -8,7 +8,7 @@ function Hero() {
                 <span>Tech Trends</span> - Daily & Weekly Tech Summaries For You
             </div>
             <div className="w-full flex justify-between  h-[50vh] gap-16 items-stretch mt-28 text-color-2 font-mono">
-                <Link href="/weeklyblogs" className="w-3/4 hero-img pr-16 pl-8 border-8 border-black rounded-3xl text-[var(--color-2)] m_sc_font">
+                <Link href="/weeklyblogs" className="w-3/4 hero-img pr-16 pl-8 border-8 border-black rounded-3xl text-white  m_sc_font">
                     
                     <div>Weekly Summary <span className="font-mono text-xl m-8">read &rarr;</span></div>
                     
